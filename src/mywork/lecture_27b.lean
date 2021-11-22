@@ -147,7 +147,8 @@ end
 /-
 Which of the following functions are surjective?
 
-- y = log x, viewed as a function from ℝ → ℝ⁺
+- y = log x, viewed as a function from ℝ → ℝ⁺ no, log x is
+not total on ℝ
 - y = x^2, viewed as a function from ℝ → ℝ 
 - y = x, viewed as a function from ℝ → ℝ
 - y = sin x, viewed as a function from ℝ → ℝ
@@ -168,12 +169,12 @@ Which is the following functions exhibits "fan-in",
 with different x values associated with the same y
 values?
 
-y = x
-y = sin x
-x = 1 (trick question)
-y = 1
-y = x^2 on ℝ 
-y = x^2 on ℝ⁺ (the positive reals)
+y = x no
+y = sin x yes
+x = 1 (trick question) not a function
+y = 1 yes
+y = x^2 on ℝ yes
+y = x^2 on ℝ⁺ (the positive reals) no
 -/
 
 /-
